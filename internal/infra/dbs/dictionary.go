@@ -3,7 +3,7 @@ package dbs
 import (
 	"fmt"
 
-	"github.com/limes-cloud/kratosx"
+	"github.com/gyq14/kratosx"
 	"google.golang.org/protobuf/proto"
 
 	"layout/internal/domain/entity"

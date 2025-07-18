@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/limes-cloud/kratosx"
+	"github.com/gyq14/kratosx"
 
 	"layout/internal/domain/entity"
 	"layout/internal/types"

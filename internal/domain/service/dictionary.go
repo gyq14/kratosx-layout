@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/limes-cloud/kratosx"
+	"github.com/gyq14/kratosx"
 
 	"layout/api/layout/errors"
 	"layout/internal/conf"

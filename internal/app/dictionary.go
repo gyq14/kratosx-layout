@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/valx"
+	"github.com/gyq14/kratosx"
+	"github.com/gyq14/kratosx/pkg/valx"
 
 	pb "layout/api/layout/dictionary/v1"
 	"layout/api/layout/errors"
