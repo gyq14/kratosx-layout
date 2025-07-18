@@ -3,18 +3,12 @@
 1. **创建新项目**
    ```bash
    kratosx new myservice
-   cd myservice
-   go generate ./...
-   go build -o ./bin/ ./...
-   ./bin/myservice -conf ./configs
+   go mod tidy
    ```
-2. **安装远程模块**
+2. **升级工具链**
    ```bash
-    go install github.com/gyq14/kratosx/cmd/kratosx@latest
-    go install github.com/gyq14/kratosx/cmd/protoc-gen-go-httpx@latest
-    go install github.com/gyq14/kratosx/cmd/protoc-gen-go-errorsx@latest
+   kratosx upgrade
    ```
-
 3. **添加 proto API**
    ```bash
    kratosx proto add helloworld/v1/hello.proto
@@ -28,7 +22,4 @@
    ```bash
    kratosx run
    ```
-6. **升级工具链**
-   ```bash
-   kratosx upgrade
-   ```
+
